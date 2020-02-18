@@ -22,6 +22,7 @@ public class HibernateTest {
 		addr1.setStreet("H.no-286,Friends Enclave");
 		addr1.setPincode("121002");
 
+		//new change
 		Address addr2=new Address();
 		addr1.setCity("Noida");
 		addr1.setState("Uttar Pradesh");
