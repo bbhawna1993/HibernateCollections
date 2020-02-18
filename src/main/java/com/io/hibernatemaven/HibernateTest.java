@@ -7,7 +7,8 @@ import org.hibernate.cfg.Configuration;
 public class HibernateTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stubrat
+		//adding session configurations
 		SessionFactory sessionFactory=new Configuration().configure().buildSessionFactory();
 		Session session=sessionFactory.openSession();
 		session.beginTransaction();
