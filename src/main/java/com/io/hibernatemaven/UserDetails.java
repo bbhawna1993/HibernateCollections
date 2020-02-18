@@ -9,6 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 
+//adding user details
 @Entity(name="USER_DETAILS")
 public class UserDetails {
 
