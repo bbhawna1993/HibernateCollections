@@ -29,8 +29,15 @@ public class HibernateTest {
 		addr1.setStreet("A-67");
 		addr1.setPincode("101103");
 
+		Address addr3=new Address();
+		addr3.setCity("Noida1");
+		addr3.setState("Uttar Pradesh1");
+		addr3.setStreet("A-67a");
+		addr3.setPincode("1011034");
+		
 		user.getUserAddress().add(addr1);
 		user.getUserAddress().add(addr2);
+		user.getUserAddress().add(addr3);
 
 		session.save(user);
 
