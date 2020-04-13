@@ -2,7 +2,8 @@ package com.io.hibernatemaven;
 import javax.persistence.Embeddable;
 
 //It will be embeddable
-//adding change for embeddable
+//adding change for embeddablee 
+//hello how are,khana khake jaana haan
 @Embeddable
 public class Address {
 
